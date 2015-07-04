@@ -1,12 +1,12 @@
 .header {
-	background-color: pink;
+	background-color: rgb(204,51,51);
 	text-align: center;
 	padding: 10px;
 }
 
 li{
 	text-align: center;
-	background-color: lightgreen;
+	background-color: rgb(204,51,51);
 }
 
 .btn {
@@ -18,7 +18,7 @@ li{
 }
 
 #paper{
-	background-color: lightyellow;
+	background-color: rgb(255,255,153);
 	height: 500px;
 	padding-left: 50px;
 	padding-top: 20px;
@@ -26,25 +26,25 @@ li{
 
 #sidebar {
 	min-height: 200px;
-	background-color: rgb(90,90,90);
+	background-color: rgb(232,159,101);
 	margin-left: 20px;
 	padding-left: 20px;
 }
 
 #content{
-	background-color: lightblue;
+	background-color: rgb(232,159,101);
 	margin-left: 20px;
 	min-height: 600px;
 	margin-bottom: 20px;
 }
 
 #footer {
-	background-color: grey;
+	background-color: rgb(204,51,51);
 	min-height: 100px;
 }
 
 .form-vertical {
-	background-color: lightblue;
+	background-color: rgb(232,159,101);
 }
 
 form h2 {
@@ -62,4 +62,6 @@ form h2 {
 	margin-right: auto;
 	min-height: 50px;
 }
-
+.body {
+	background-color: rgb(227,222,193);
+}
