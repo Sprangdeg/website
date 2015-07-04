@@ -1,0 +1,65 @@
+.header {
+	background-color: pink;
+	text-align: center;
+	padding: 10px;
+}
+
+li{
+	text-align: center;
+	background-color: lightgreen;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.tabs{
+	min-height: 20px;
+}
+
+#paper{
+	background-color: lightyellow;
+	height: 500px;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+#sidebar {
+	min-height: 200px;
+	background-color: rgb(90,90,90);
+	margin-left: 20px;
+	padding-left: 20px;
+}
+
+#content{
+	background-color: lightblue;
+	margin-left: 20px;
+	min-height: 600px;
+	margin-bottom: 20px;
+}
+
+#footer {
+	background-color: grey;
+	min-height: 100px;
+}
+
+.form-vertical {
+	background-color: lightblue;
+}
+
+form h2 {
+	text-align: center;
+	padding: 10px;
+}
+
+#formHolder {
+	background-color: lightblue;
+}
+
+.form-group {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 50px;
+}
+

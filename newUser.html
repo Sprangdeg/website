@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Bonstrom.se</title>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<script src="js/jquery-2.1.3.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Bonstrom.se</h1>
+		<div class="container">
+
+			<form class="form-vertical" role="form" id="createUserForm" action="php/createuser.php" method="post" onSubmit="return checkPassword()">
+				<h2>Create new account</h2>
+					<div class="form-group">
+						<label for="userName">Username: </label>
+						<input name="userName" class="form-control" type="text" placeholder="Enter username" required>
+					</div>
+
+					<div class="form-group">
+						<label for="password1"> Password <small>(min 6 characters)</small>: </label>
+						<input name="password1" class="form-control" type="password" placeholder="Enter password" required>
+					</div>
+
+					<div class="form-group">
+						<label for="password2">Re-enter password: </label>
+						<input name="password2" class="form-control" type="password" placeholder="Re-enter password" required>
+					</div>
+
+					<div class="form-group">
+						<label for="firstName">First name: </label>
+						<input name="firstName" class="form-control" type="text" placeholder="Enter first name" required>
+					</div>
+
+					<div class="form-group">
+						<label for="lastName">Last name: </label>
+						<input name="lastName" class="form-control" type="text" placeholder="Enter last name" required>
+					</div>
+
+					<div class="form-group">
+						<label for="email">Email: </label>
+						<input name="email" class="form-control" type="email" placeholder="Enter email" required>
+					</div>
+
+					<div class="form-group">
+						<label for="datOfBirth">Date of birth: </label>
+						<input name="dateOfBirth" class="form-control" type="date" placeholder="Enter date of birth" max="2005-01-01" min="1915-01-01" required>
+					</div>
+
+					<div class="form-group">
+						<input type="submit" value="Submit" id="createUserButton" class="btn btn-default">
+						<button  type="button" onclick="location.href='index.html'" class="btn btn-link">Back</button>
+					</div>
+			</form>
+		</div>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			function checkPassword() {
+				if ($("[name='password1']").val() == $("[name='password2']").val()) {
+					return true;
+				} else {
+					alert("Passwords do not match!");
+					$("[name='password1']").val("");
+					$("[name='password2']").val("");
+					return false;
+				}
+
+			}
+		</script>
+	</body>
+</html>
