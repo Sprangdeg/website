@@ -4,6 +4,10 @@
 	padding: 10px;
 }
 
+div h2 {
+	text-align: center;
+}
+
 li{
 	text-align: center;
 	background-color: rgb(204,51,51);
