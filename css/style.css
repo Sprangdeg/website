@@ -1,8 +1,16 @@
 .header {
-	background-color: rgb(204,51,51);
+	background-color: rgb(233,99,59);
 	text-align: center;
 	padding: 10px;
 	color: rgb(255,255,255);
+	font-family: courier, monospace;
+}
+.centeredLogo
+    { 
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
 div h2 {
@@ -11,7 +19,7 @@ div h2 {
 
 li{
 	text-align: center;
-	background-color: rgb(204,51,51);
+	background-color: rgb(34,30,29);
 }
 
 .btn {
@@ -23,7 +31,7 @@ li{
 }
 
 #paper{
-	background-color: rgb(255,255,153);
+	background-color: rgb(236,234,224);
 	height: 500px;
 	padding-left: 50px;
 	padding-top: 20px;
@@ -31,20 +39,22 @@ li{
 
 #sidebar {
 	min-height: 200px;
-	background-color: rgb(232,159,101);
+	background-color: rgb(233,99,59);
 	margin-left: 20px;
 	padding-left: 20px;
+	font-family: courier, monospace;
 }
 
 #content{
-	background-color: rgb(232,159,101);
+	background-color: rgb(236,234,224);
 	margin-left: 20px;
 	min-height: 600px;
 	margin-bottom: 20px;
+	font-family: courier, monospace;
 }
 
 #footer {
-	background-color: rgb(204,51,51);
+	background-color: rgb(233,99,59);
 	min-height: 100px;
 }
 
@@ -68,5 +78,5 @@ form h2 {
 	min-height: 50px;
 }
 .body {
-	background-color: rgb(227,222,193);
+	background-color: rgb(34,30,29);
 }
